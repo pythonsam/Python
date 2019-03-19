@@ -1,3 +1,4 @@
+remote server edited 
 # lambda function
 
 r = lambda a: a * 2
