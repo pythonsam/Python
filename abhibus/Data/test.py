@@ -11,7 +11,7 @@ print(d)
 
 r = reduce(lambda x, y: x+y, range(10))
 print(r)
-print("undo chagnes ")
+print("undo chagnes comands")
 
 # Undo all command addded
  # git checkout -- .
