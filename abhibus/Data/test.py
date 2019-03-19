@@ -16,6 +16,10 @@ print("undo chagnes comands")
 # Undo all command addded
  # git checkout -- .
  # git checkout -- test.py # for single file
+
+ """
+ git show head
+ """
 <<<<<<< HEAD
 
 # Git MASTER BRANCH
