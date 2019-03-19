@@ -20,6 +20,9 @@ print("undo chagnes comands")
  """
  git show head
  """
+ """
+ git meld tool installed 
+ """
 <<<<<<< HEAD
 
 # Git MASTER BRANCH
