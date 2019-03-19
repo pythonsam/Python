@@ -1,6 +1,7 @@
 # remote server edited 
 # added 2nd line 
 # lambda function
+asf
 
 r = lambda a: a * 2
 print(r(2))
