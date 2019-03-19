@@ -17,6 +17,9 @@ print("undo chagnes comands")
  # git checkout -- .
  # git checkout -- test.py # for single file
 
-# Git BRANCH
+# Git MASTER BRANCH
+"""
+1.Line 1 added to master branch 
+"""
 
 
