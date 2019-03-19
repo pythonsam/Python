@@ -16,6 +16,7 @@ print("undo chagnes comands")
 # Undo all command addded
  # git checkout -- .
  # git checkout -- test.py # for single file
+<<<<<<< HEAD
 
 # Git MASTER BRANCH
 """
@@ -23,3 +24,12 @@ print("undo chagnes comands")
 """
 
 
+=======
+###############################################################
+"""
+Thirsty branch has been created with the command 
+1.git branch thirsty 
+2.git checkout thirsty 
+3.Added line 3 to thirsty branch 
+"""
+>>>>>>> thirsty

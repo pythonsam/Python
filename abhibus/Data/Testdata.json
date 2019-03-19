@@ -2,5 +2,11 @@
   "hyd"   : "Hyderabad",
   "bang"  : "Bangalore",
   "chen"  : "Chennai",
+<<<<<<< HEAD
   "undo"  : "committed changes"
+=======
+  "thirsty": " createing a branch ",
+  assafasfsf
+          added to thirsy branch
+>>>>>>> thirsty
 }
