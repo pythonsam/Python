@@ -21,4 +21,5 @@ print("undo chagnes ")
 Thirsty branch has been created with the command 
 1.git branch thirsty 
 2.git checkout thirsty 
+3.Added line 3 to thirsty branch 
 """
