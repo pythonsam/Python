@@ -1,4 +1,5 @@
 # remote server edited 
+# added 2nd line 
 # lambda function
 
 r = lambda a: a * 2
