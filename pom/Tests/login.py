@@ -14,8 +14,17 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
 dir_path = os.path.dirname(os.path.realpath(__file__))
 folder_path = os.path.abspath(os.path.join(dir_path, os.pardir))
 
-from pages.login_page import LoginPage
-from pages.home_page import HomePage
+# Getting Current Working Folder
+dir_path = os.path.dirname(os.path.realpath(__file__))
+# Getting Parent of Current Working Folder
+folder_path = os.path.abspath(os.path.join(dir_path, os.pardir))
+
+
+from pom.pages.login_page import LoginPage
+from pom.pages.home_page import HomePage
+# from pages.login_page import LoginPage
+# from pages.home_page import HomePage
+
 
 
 class OrangeHRM(unittest.TestCase):
@@ -84,5 +93,5 @@ Without adding below command to script u can run the scrip by using python -m un
 if __name__ == '__main__':
     unittest.main(testRunner= HtmlTestRunner.HTMLTestRunner(output='D://sdet//Python//pom//reports'))
 
-# Orange = OrangeHRM()
-# Orange.login_test()
+Orange = OrangeHRM()
+Orange.login_test()
