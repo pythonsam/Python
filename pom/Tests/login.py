@@ -66,18 +66,18 @@ class OrangeHRM(unittest.TestCase):
         # logoutbtn = self.driver.find_element(By.LINK_TEXT, "Logout")
         # logoutbtn.click()
         # time.sleep(2)
-    def test_login_Invalid_username(self):
-        driver = self.driver
-        # self.driver.get("https://opensource-demo.orangehrmlive.com")
-
-        login = LoginPage(driver)
-        login.enter_username('Admin1')
-        login.enter_password('admin123')
-        login.click_login()
-        message = driver.find_element_by_xpath("").text
-        self.assertEqual(message, "Invalid credentials")
-
-        time.sleep(3)
+    # def test_login_Invalid_username(self):
+    #     driver = self.driver
+    #     # self.driver.get("https://opensource-demo.orangehrmlive.com")
+    #
+    #     login = LoginPage(driver)
+    #     login.enter_username('Admin1')
+    #     login.enter_password('admin123')
+    #     login.click_login()
+    #     message = driver.find_element_by_xpath("Invalid credentials").text
+    #     self.assertEqual(message, "Invalid credentials")
+    #
+    #     time.sleep(3)
 
 
     @classmethod
