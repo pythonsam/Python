@@ -9,7 +9,7 @@ import HtmlTestRunner
 
 import os
 import sys
-sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
+sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 folder_path = os.path.abspath(os.path.join(dir_path, os.pardir))
@@ -20,10 +20,10 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 folder_path = os.path.abspath(os.path.join(dir_path, os.pardir))
 
 
-from pom.pages.login_page import LoginPage
-from pom.pages.home_page import HomePage
-# from pages.login_page import LoginPage
-# from pages.home_page import HomePage
+#from pom.pages.login_page import LoginPage
+#from pom.pages.home_page import HomePage
+from pages.login_page import LoginPage
+from pages.home_page import HomePage
 
 
 
