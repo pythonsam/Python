@@ -91,7 +91,7 @@ To Run from command prompt as python login.py add below one
 Without adding below command to script u can run the scrip by using python -m unittest login.py
 """
 if __name__ == '__main__':
-    unittest.main(testRunner= HtmlTestRunner.HTMLTestRunner(output='D:/sdet/Python/pom/reports'))
+    unittest.main(testRunner= HtmlTestRunner.HTMLTestRunner(output='C:\Automation\pom\reports'))
 
 Orange = OrangeHRM()
 Orange.login_test()
