@@ -1,0 +1,39 @@
+## Project 1  ::---
+1. " PROJECT NAME " is a one stop solution to update all applicable softwares.
+2. " PROJECT NAME " is a collection of firmware packages.
+3. Using " PROJECT NAME " tool we can get all network devices configuration.
+4. Using file handle and regular expressions i have verified Device Configuration.
+5. Using " PROJECT NAME " application we can get all network devices information into single point.
+6. using " PROJECT NAME " we can change network device functionality also.
+7. Using policies we can validate device functionality as client requirements.
+8. In this project we are following Agile methodology.
+
+## Roles and responsibilities:-
+1. In this project My Role is automate manual test cases using python
+2. I have used Robot Framework for test case execution.
+3. Developed so many keywords under robot framework as requirement.
+4. I have used python concepts like regular Expressions, file handile, OOP's, Modules and Packages.
+5. Used Selenium wedriver for automate web based test cases.
+6. Used python predefine modules re, selenium, sys, logging and paramiko
+7. Used GIT version control tool code pull and push.
+
+
+## Project 2  ::---
+
+1. " PROJECT NAME " is used to provide Instant Capacity to the servers.
+2. using " PROJECT NAME "instantly activate that capacity rather than waiting weeks for additional resources to arrive and be installed.
+3. We can enable additinal cores and memory very quckly based on business requiremnet.
+4. It will provide low-cost backup servers.
+5. Perform workload balancing among partitions and servers and pool TiCAP balances
+
+## Roles and responsibilities:-
+
+1. Performed Functional, regression and performance testing.
+2. Involved into prepare Design documnets and user Guide Documents also.
+3. Done manual testing before going to auomate testcase.
+4. Developed design and testcase documents.
+5. Ran test suite to find new bugs.
+6. Worked on Bug fixes and raising bugs.
+7. Attended daily standup meeting to tell what we have done yesterday and what we are going to do today.
+
+

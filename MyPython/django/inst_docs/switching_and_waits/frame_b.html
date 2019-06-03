@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+            function show_data(name)
+            {
+                document.getElementById("para1").innerHTML="This data is enabled from " + name;
+            }
+            function open_alert()
+            {
+                prompt("Enter some data");
+            }
+        </script>
+    </head>
+    <body>
+        <button id="frame_b_b1" onclick="show_data('Frame B button1')">Frame B button1</button>
+        <button id="frame_b_b2" onclick="open_alert()">Frame B button2</button>
+        <p id="para1">
+
+        </p>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+Today we will learn:
+--------------------------
+1. What are variables in RobotFramework
+2. Types of Variables
+3. How to create variables
+4. How to Refer variables
+
+Useful TIPS
+__________________________________________________________________
+
+What are Variables 
+Variables are elements used to store values that can be referenced by other elements
+
+RobotFramework has 3 types of variables
+SCALAR
+LIST
+DICTIONARY
+
+we can also use
+ENVIRONMENT variables
+
+Step 1 : Open RIDE 
+
+Step 2 : Create a Test Case for login
+             http://opensource.demo.orangehrmlive....
+We can run the Specic Test Cases Using Tags in RIDE 
+	1.Select TestCase you want to Tag it 
+	2.Click on Settings
+	3.Select "Tags" Field 
+	4.Enter the TestCase Name  i.e., Test2 
+	5.Save 
+
+Step 3 : Create a SCALAR variable for url and refer in TestCase
+             syntax : ${VariableName}
+
+Step 4 : Create a LIST variable for username and password and refer in TestCase
+              syntax : @{VariableName}
+
+Step 5 : Create a DICTIONARY variable for username and password and refer inTestCase
+              syntax : &{VariableName}
+
+Environment
+%{variable name}
+
+		%{os}
+		%{username}
+
+Useful TIPS
+=========
+1. If a non-existent variable is used in test-data, the keyword using it will fail
+
+2. We can set variables from command line
+
+3. Variables are case-insensitive
+
+4. As best practice use uppercase variable names for global variables
+   And lowercase variable names for local variables
+
+5. Built in variables -    http://robotframework.org/robotframew...
+
+Robot Framework Playlist - https://www.youtube.com/playlist?list...
+All Playlists - https://www.youtube.com/channel/UCTt7...

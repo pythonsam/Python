@@ -1,0 +1,30 @@
+How to Use Keywords
+
+Today we will learn:
+-------------------------------
+1. What are Keywords
+2. Types of Keywords
+3. How to create User Keywords
+4. How to reference User Keywords
+
+USEFUL TIPS
+
+2 Types:
+LIBRARY KEYWORDS : low level keywords
+
+USER KEYWORDS : high level keywords
+custom keywords
+combination of library keywords/actions
+
+Step 1 : Open RIDE
+
+Step 2 : Right click on Project / Test Suite - New User Keyword
+
+Step 3 : Create a keyword for Login
+
+Step 4 : Refer the keyword in a TestCase
+
+Useful Tips
+User Keyword syntax is similar to TestCase syntax
+Search Keyword - F5
+Find Usage

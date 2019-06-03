@@ -1,0 +1,25 @@
+Today we will learn:
+1. How to add browser exe files
+2. How to run test on different browsers
+----------------------------------------------------------------------------------
+
+Step 1 : Open RIDE
+
+Step 2 : Create a step to open browser in Firefox
+             This will fail if you do not have firefox driver exe (gecko driver exe) in Python folder
+
+Step 3 : Get browser Driver exe file. Goto SeleniumHQ.org and Download browseR driver exe file
+
+Step 4 : Keep the driver exe file in \Python27\Scripts folder
+             Note : This folder should be addded in environment path variable
+(You can use any other location inside python folder as well)
+
+Step 5 : Open RIDE - Goto Test Case - In the test step open browser give the browser name
+         
+BROWSER NAME TO USE
+Firefox                    firefox, ff
+Google Chrome    googlechrome, chrome, gc
+Internet Explorer   internetexplorer, ie
+Edge                        edge
+
+Step 6 : Run and Validate

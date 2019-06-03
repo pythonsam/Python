@@ -1,0 +1,13 @@
+Step 1 : 
+Python 3.6
+robotframework
+pip install wxpython
+pip install robotframework -ride
+
+# To Run the ride 
+ride version 1.7.3.1
+python -m robotide.__init__
+
+----------------------------------
+
+							

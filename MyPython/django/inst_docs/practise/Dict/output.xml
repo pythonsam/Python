@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.1 (Python 3.6.7rc2 on win32)" generated="20190303 18:03:17.768" rpa="false">
+<suite id="s1" name="Dictonary Example2" source="C:\Users\shyam.emmadi\Desktop\Python\robot\New folder\practise\Dict\dictonary_example2.robot">
+<test id="s1-t1" name="Dictonary Operations">
+<kw name="Create Dictionary" library="BuiltIn">
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<arguments>
+<arg>name=SHYAM</arg>
+</arguments>
+<assign>
+<var>${D}</var>
+</assign>
+<msg timestamp="20190303 18:03:17.812" level="INFO">${D} = {'name': 'SHYAM'}</msg>
+<status status="PASS" starttime="20190303 18:03:17.811" endtime="20190303 18:03:17.812"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Dict Items are:: ${D}</arg>
+<arg>WARN</arg>
+</arguments>
+<msg timestamp="20190303 18:03:17.812" level="WARN">Dict Items are:: {'name': 'SHYAM'}</msg>
+<status status="PASS" starttime="20190303 18:03:17.812" endtime="20190303 18:03:17.813"></status>
+</kw>
+<kw name="Get From Dictionary" library="Collections">
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<arguments>
+<arg>${D}</arg>
+<arg>name</arg>
+</arguments>
+<assign>
+<var>${v}</var>
+</assign>
+<msg timestamp="20190303 18:03:17.814" level="INFO">${v} = SHYAM</msg>
+<status status="PASS" starttime="20190303 18:03:17.814" endtime="20190303 18:03:17.814"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Name is :: ${v}</arg>
+<arg>WARN</arg>
+</arguments>
+<msg timestamp="20190303 18:03:17.815" level="WARN">Name is :: SHYAM</msg>
+<status status="PASS" starttime="20190303 18:03:17.815" endtime="20190303 18:03:17.816"></status>
+</kw>
+<kw name="Get Dictionary Keys" library="Collections">
+<doc>Returns keys of the given ``dictionary``.</doc>
+<arguments>
+<arg>${D}</arg>
+</arguments>
+<assign>
+<var>${K}</var>
+</assign>
+<msg timestamp="20190303 18:03:17.816" level="INFO">${K} = ['name']</msg>
+<status status="PASS" starttime="20190303 18:03:17.816" endtime="20190303 18:03:17.816"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Key is :: ${K}</arg>
+<arg>WARN</arg>
+</arguments>
+<msg timestamp="20190303 18:03:17.816" level="WARN">Key is :: ['name']</msg>
+<status status="PASS" starttime="20190303 18:03:17.816" endtime="20190303 18:03:17.817"></status>
+</kw>
+<kw name="Remove From Dictionary" library="Collections">
+<doc>Removes the given ``keys`` from the ``dictionary``.</doc>
+<arguments>
+<arg>${D}</arg>
+<arg>name</arg>
+</arguments>
+<msg timestamp="20190303 18:03:17.818" level="INFO">Removed item with key 'name' and value 'SHYAM'.</msg>
+<status status="PASS" starttime="20190303 18:03:17.817" endtime="20190303 18:03:17.818"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Dict values are :: ${D}</arg>
+<arg>WARN</arg>
+</arguments>
+<msg timestamp="20190303 18:03:17.818" level="WARN">Dict values are :: {}</msg>
+<status status="PASS" starttime="20190303 18:03:17.818" endtime="20190303 18:03:17.819"></status>
+</kw>
+<status status="PASS" starttime="20190303 18:03:17.811" endtime="20190303 18:03:17.819" critical="yes"></status>
+</test>
+<doc>Dictonary Operations</doc>
+<status status="PASS" starttime="20190303 18:03:17.769" endtime="20190303 18:03:17.819"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Dictonary Example2">Dictonary Example2</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20190303 18:03:17.812" level="WARN">Dict Items are:: {'name': 'SHYAM'}</msg>
+<msg timestamp="20190303 18:03:17.815" level="WARN">Name is :: SHYAM</msg>
+<msg timestamp="20190303 18:03:17.816" level="WARN">Key is :: ['name']</msg>
+<msg timestamp="20190303 18:03:17.818" level="WARN">Dict values are :: {}</msg>
+</errors>
+</robot>

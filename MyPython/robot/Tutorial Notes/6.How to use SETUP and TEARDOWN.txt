@@ -1,0 +1,36 @@
+How to use SETUP and TEARDOWN
+
+Today we will learn:
+--------------------------
+1. What is Setup and TearDown
+2. How to use
+
+SETUP - keyword executed before running any lower level component/keyword
+TEARDOWN - keyword executed after running any lower level component/keyword
+
+Step 1 : Open RIDE
+
+Step 2 : Create TestSuite Setup and Teardown and run it
+
+Select TestSuite - Settings - Select Suit Setup - Click on Edit - It will give the Options for Suite SetUp
+
+Note: Seprated by | symobol 
+
+Syntax: Keyword | Arguement 
+
+Log to Console | Test Suite Started 
+
+Similarly for Suite Teardown as well 
+Select TestSuite - Settings - Select Suit Setup - Click on Edit - It will give the Options for Suite SetUp
+
+Note: Seprated by | symobol 
+
+Syntax: Keyword | Arguement
+
+Log to Console | Test Suite Ended 
+
+Note: Similary we can do it for Test Case Level as well 
+
+Robot Framework Playlist - https://www.youtube.com/playlist?list...
+
+All Playlists - https://www.youtube.com/channel/UCTt7...

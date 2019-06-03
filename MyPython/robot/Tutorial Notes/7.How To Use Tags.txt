@@ -1,0 +1,35 @@
+oday we will learn:
+-------------------------------
+1. How to create TAGS
+	Select Test Case - Settings - Tags Field - Enter Test Case 
+
+2. How to use tags during Test Execution
+	Select Run tab - There are 2 Options 
+		1.Only Run tests these Tags
+		2.Skip tests with these Tags
+	
+3. How to use tags in Reports
+	Statics by Tags
+
+4. How to create Dynamic Tags
+	Set Tags -  To set the Multipule tags
+	Remove Tags - To Remove Tags
+
+5. How to set TAGS from command line
+
+Sanity, Smoke, Regression, Critical
+
+Tags are used to classify/categorize test cases
+
+
+Useful TIP
+command line option :  --settag
+
+Step 1 : Goto cmd and cd to your robot framework project
+
+Step 2 : syntax
+             robot -t TestName --settag=TagName TestSuite.txt
+
+Note : If you want to give multipule Tags Seprated by |
+
+	example : Test4 | Sanity 

@@ -1,0 +1,6 @@
+robot --version
+robot --help
+pip freeze
+pip list
+pip show 
+pip check

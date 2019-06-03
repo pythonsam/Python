@@ -1,0 +1,141 @@
+
+I am Sreerag S Kumar, a trivandrum native.
+
+Regarding my work profile i am having a total of 4.4 yr experience in Android app development and manual testing.
+
+I have been working at IMR Infotech Private Limited as Software engineer from June 2013 streaming android as well as java applications. From where i got exposure to complete software life cycle starting from requirement gathering till delivery with minimal time and team size, without compromising quality through agile as well as scrum methodologies.
+
+In between i got an onsite opportunity to serve our Japanese client for a JSP project with a duration of 6 months. And i would like to mention that i have learned JSP by myself for the purpose.
+
+Moreover, i have basic knowledge in hybrid app development using Phonegap.
+
+On the area of my projects i am pointing ****** Project name, technology used, purpose of project*****
+
+As far as my qualification is concerned i secured BE graduation in Computer Science & Engineering from Bethlahem Institute of Engineering, karungal KK dist, Tamilnadu, under Anna University, Chennai in 2012. And a certification in “Android” from CDAC, Trivandrum after my graduation.
+
+About my strengths, I'm flexible and adoptable towards my work and enthusiasm to learn new things. I'm a hard worker and i work smart. With respect to weakness, shyness was the one i faced earlier and now i was able to overcome it with confidence and passion towards work.
+
+Thank you for the opportunity, time and concern to know about me.
+
+NB: Please modify with respect to your field.
+************************************************************************************************************************
+I am Quality Engineer with 10 years of experience managing all aspects of the Testing process - from understanding client requirent to testing to Releasing the product and Supporing.
+
+I have spent the last 10 years for developing my skills as Quality Engineer for causeway Where i have won performance award in the  last year and been promoted twice.I like to work with teams and solving customer problems.
+
+Although i love my current role,I feel I'm now ready for a more challenging assignment and this position excites me.
+
+
+Roles and responsibilities:
+
+1.Understanding the user story and converting them into test cases
+2.Once completed will do a peer review within the team (QA + Development team)
+3.If any comments given,will incorporate those as well and then sent to PO for final review.
+4.Again ,If any comments given,will incorporate those as well and then ready for testing.
+
+This is one of It as part of my responsibility.
+
+Plus 
+
+1.Transfer Application flow knowledge to the team(QA+Dev),So it helps them in understanding the 
+Application for development and QA point of view.
+
+2.Providing Test scope(likely to be impacted areas) to QA team(1 QA member ) for each story so that we make sure we covered 
+different testing scenarios around the area that may effect due to the code changes.Finally we will
+make sure everything works fine.
+
+3.Supporing support team,for example like,we do maintain 
+INI file or certain settings in the application,there we have ON and OFF facility using we control few functionalities in application.
+So in this scenario ,I do check in application and give proper solution to the support team.
+
+4.I does the Bug traiage as well basically to eliminate duplicate Issues(support team and QA team) and 
+If neccassary provide more supporting documents to replicate the Issue, attaching recorded videos,
+which will make Dev team to reproduce the Issue in their environment very easily.
+
+1. Check if the enough information is provided in the defect by tester in such a way that developer can understand 
+the defect without any problem. If not then triage team can reassign the defect to reporter and ask for the 
+additional information which helps out to understand the defect.
+2. Check if defect is logged under correct project and module.
+
+5.Closily working with Dev team to resolve issues like creating test data for them so that using this
+they can reproduce the defect,understanding root of the Issues so that its easy for QA team to define 
+Test scope for next regression cycle.
+
+Plus Automation
+
+1.Our approach in automation is like,once we complete the sprint any Userstories or defects will taken
+in next sprint to automate.This is just to make sure our application stable to proceed for automation.
+
+2.Each automation script is a Independent one,so anytime individual script should run.So using 
+methodology maintainability of script is easy and also track down the issue also very easy.
+
+3.In automation,basically we have divided into Two parts one is Ramp up and another one is Ramp down
+
+basically in Rampup,Open the browser openes,login to application,do the actions and then validate
+In Rampdown,delete the data or change the data to ready for next run.
+
+Plus scrum master role
+
+I will make sure as a team we have common Objectives to achieve the sprint goal.
+Also This involves removing any impediments to progress, facilitating meetings, 
+and doing things like working with the product owner to make sure the product 
+backlog is in good shape and ready for the next sprint.
+
+The Scrum Master’s main responsibility is to identify, track and help remove impediments
+1) Make a note of impediments from above discussions
+2) Be able to explain what an impediment is – from the team members
+3) Understand who is responsible for removing impediments – Scrum master will identify whom to talk with to remove the impediment
+
+Automation Advantages :
+
+1.In a constantly changing code base, you have the ability to automatically execute the tests on each commit. You won’t have to continuously carry out manual steps by setting up the environment or remember the steps to execute each test. Everything is done automatically.
+2.Once the setup is in place, automated tests can be repeatedly run, reducing the time to run repetitive manual tests from weeks to hours
+3.Every commit to the code base is to be tested automatically and the results reported back to the developers. The developers prioritize fixing any of the tests that have broken the build ensuring that the mainline code is always working as expected.
+4.Agile methodologies recommend short cycles of feature development, called Sprints, that usually run for 2-3 weeks. These short Sprints are repeated within a bigger release lifecycle.
+
+This calls for a new way to organize the test efforts and demands greater efficiency.
+
+Each Sprint is focused on the development of a small set of features but must deliver a functional system at its end, including all the features from the previous Sprints.
+
+5.Overall, automated testing is a faster way to get feedback on failures than manual testing, in line with the principles of “Fail fast, Fail early.” It helps to ensure quality in a way manual testing never will be able to.
+
+6.developers are encouraged to continually merge their code into the main source code repository.
+
+7.Each of these ‘merges’ or ‘commits’ into the repository is usually followed by a series of automated tasks: the compilation of code, execution of unit tests and integration tests, static code quality analysis to determine whether the code quality has degraded, etc.
+
+These automated tasks help to verify the sanity of the new code and identify any breakages caused by the new code, i.e. whether any integration issues have occurred. Most importantly, the developers receive this feedback quickly and early.
+
+8.In an environment that encourages early feedback loops and continuous delivery of working software, CI enables developers to frequently commit changes with confidence by automating the quality assurance and build processes
+
+9.Each check-in to the repository is verified for integration issues and an acceptable level of quality by the CI infrastructure.
+
+Agile main three principles:
+
+    Customer satisfaction by early and continuous delivery of valuable software.
+    Working software is delivered frequently (weeks rather than months).
+    Working software is the principal measure of progress
+    CI processes and tools are utilized to achieve part of these objectives
+
+    Automated Build and Verification
+
+When each change is committed to the main branch, no matter how small those changes are, an automated build process compiles the code and executes the unit and integration tests.
+
+This step verifies that the new code has not broken any of the previously working code.
+
+
+CI Advantages
+
+There are many advantages to introducing CI. These mainly have to do with quick feedback (either positive or negative) on code changes and code quality.
+
+    Automated steps to verify code changes. Usually, these steps are also manually executable using only one command in the developer’s local machine!
+    Early detection of defects.
+    Early detection of integration issues with other code and components.
+    Ability to test code automatically.
+    The customers are happy because of improved code quality.
+    Provisions the team to develop a piece of software in small bits, verifying that each bit is fully functional and devoid of errors.
+    Ability to introduce code quality measurements and code quality gates on each commit and also on the overall code.
+    Reduce time to market for developing complex software.
+    Reduce code merge conflicts and unexpected behavior caused by a big-bang approach to software development i.e. where everything is merged into the mainline code in large chunks, usually at the end of a project life cycle
+
+
+

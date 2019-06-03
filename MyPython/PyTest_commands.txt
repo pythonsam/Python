@@ -1,0 +1,12 @@
+	- File Name should starts with "test
+	- Test method name should start with test 
+	
+	- py.test test_mod.py 	# Run tests in Module 
+	- py.test somepath	# Run all tests below somepath
+	- py.test test.module.py::test_method # only run test_method in test_module 
+
+pytest -s test_demo.py 
+pytest -v test.demo.py 
+
+ 	-s # To Print Statements 
+	-v # Verbose 

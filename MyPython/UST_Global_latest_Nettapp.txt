@@ -1,0 +1,31 @@
+1. How to seprate the given string to nums, special char, char
+
+given string : 123xcvfrt45788ggettrbuytASCRTYHFGT::$%
+
+2.From the given list , print even numbers using for loop 
+
+3.What are all packages are used in project
+4.what are all modules are used in project
+5.what are all lib are used in project 
+6.Tommarow is release ,u got a bug will release it cust ?what is your approach 
+
+key word need to use :deffered 
+7.dict key can we amend ?
+no, dict keys are immutable 
+8.What is 405 and 305?
+9.How you will parse json 
+10.Parsing modules 
+11.xml parsing modules 
+12.text file 
+13.dom module 
+14.Learn regular expressions
+
+Write a program that prints out every number from 1-100 that is divisible by 3 or 5 with no remainder.  
+1 Answer
+Write a class Vehicle, Car, and Plane with function Print_description that gives a description of the vehicle. (Basically just testing your knowledge of class inheritance)  
+Answer Question
+reverse string  
+Write a program printing '"hello World" without semi colon in c.  
+Write a program sorting characters without using sort function in Perl.  
+Explain - Over all test processing - SDLC, Load testing, Debugging analysis, Agile Methodology 
+Describe approach to opening a bug and working with dev for a high priority solution. 

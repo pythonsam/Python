@@ -1,0 +1,51 @@
+Today we will learn:
+------------------------------
+1. Different ways to install Robot Framework
+2. How to verify Installation
+3. How to upgrade to latest version
+4. How to download and install 
+5. How to uninstall 
+
+USEFUL TIPS
+______________________________________________________
+
+
+INSTALL
+
+1. Install latest version
+    pip install robotframework
+
+2. Install a specific version
+    pip install robotframework==2.9.0
+
+3. Do a fresh install ignoring cached files
+    pip install --no-cache-dir robotframework
+
+
+VERIFY INSTALLION
+    robot --version
+
+
+UPGRADE
+    pip install --upgrade robotframework
+
+
+DOWNLOAD AND INSTALL
+    pip download robotframework
+    pip install robotframework-3.0.tar.gz
+
+
+UNINSTALL
+pip uninstall robotframework
+
+
+USEFUL TIPS
+rebot --version
+rebot --help
+______________________________________________________
+
+Robot Framework Playlist - https://www.youtube.com/playlist?list...
+
+All Playlists - https://www.youtube.com/channel/UCTt7...
+
+Like, Share and Subscribe

@@ -1,0 +1,44 @@
+Today we will learn:
+-------------------------------
+
+LInk : https://www.youtube.com/watch?v=EF7GHvN5KwU&t=22s
+1. How to create job in jenkins
+2. How to add robot framework plugin in jenkins
+3. How to configure robot framework tests in Jenkins
+4. Show html reports on jenkins
+5. Run and Validate
+
+Useful TIPS
+_______________________________________________
+
+
+Step 1 : Download Jenkins
+
+Step 2 : Start Jenkins
+
+Step 3 : Add robot framework plugin in jenkins
+
+Step 4 : Create job to run robot framework tests
+
+Step 5 : Run and validate
+
+In case not able to see the html reports in jenkins
+Goto Manage Jenkins - Script Console
+Add this script and run
+System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "")
+If you see Result, it means success
+Now from next runs html reports will be accessible from jenkins
+_____________________________________________________________
+
+Useful Tips
+
+Goto Dashboard - You will find a new column Robot Results
+
+You can use wild cards in name of output files of robot framework  in Jenkins 
+
+Jenkins content security policy - to enable viewing html reports
+_____________________________________________________________
+
+Robot Framework Playlist - https://www.youtube.com/playlist?list...
+
+All Playlists - https://www.youtube.com/channel/UCTt7...

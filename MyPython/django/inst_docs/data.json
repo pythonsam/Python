@@ -1,0 +1,20 @@
+{
+    "status": "fail", 
+    "time_start": 1539155082.2265401, 
+    "agent_pid": 4905, 
+    "id": 1, 
+    "time_queued": 1539155070.1549201, 
+    "time_end": 1539155134.5739379, 
+    "message": "1 stage(s) failed", 
+    "stages": {
+        "Provision": {
+            "status": "fail", 
+            "stage_name": "Provision", 
+            "code": 1, 
+            "time_start": 1539155082.2761779, 
+            "signal": 0, 
+            "time_end": 1539155134.573673, 
+            "message": "some stages failed"
+        }
+    }
+}
