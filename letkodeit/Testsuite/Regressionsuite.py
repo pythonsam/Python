@@ -1,5 +1,8 @@
 import os
 import unittest
+import sys
+
+sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 from Library.HTMLTestRunner import HTMLTestRunner
 
 from Testscripts.test_testCaseNo1001 import TestcaseNo1001
@@ -9,7 +12,7 @@ folder_path = os.path.abspath(os.path.join(dir_path, os.pardir))
 
 
 # importing individual test scripts
-""" Note: Reason for making individual test scripts - 
+""" Note: Reason for making individual test scripts - s
 As per standard framework guidelines - Each test script should be independent one
 """
 suite = unittest.TestSuite()
